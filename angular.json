@@ -53,6 +53,7 @@
               "src/assets"
             ],
             "styles": [
+              "bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": []
