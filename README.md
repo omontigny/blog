@@ -4,9 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Blog Architecture
 
-- `raw.githubusercontent.com/omontigny/blog/main/src/assets/angular_concepts.png?sanitize=true&raw=true`
-
-![Test Image 7](https://github.com/omontigny/blog/blob/main/src/assets/angular_concepts.png)
+![Blog Architecture](https://github.com/omontigny/blog/blob/main/src/assets/angular_concepts.png)
 
 ## Development server
 
