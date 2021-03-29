@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     "styles.scss"
 ]`
 - Start server : `ng serve` ( port 4200)
-- Create component : `ng generate component componentName`
+- Create component : `ng generate component post`
 
 ## Blog Architecture
 

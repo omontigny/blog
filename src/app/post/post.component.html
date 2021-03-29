@@ -1,1 +1,11 @@
-<p>post works!</p>
+
+  <li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': getLoves() > 0,
+                 'list-group-item-danger': getLoves() < 0
+                 }">
+  <h4 >{{getTitle()}}</h4><span>({{getLoves()}})</span>
+  <p style="color: grey; font-size:10px" >Mis à jour : {{ getPostDate() | date: 'dd/MM/yyyy H:mm'}}</p>
+  <p> {{getContent()}} </p>
+  <button class="btn btn-success" (click)="increaseLoves()"> Love It</button>
+  <button class="btn btn-danger" (click)="decreaseLoves()"> Don't Love It</button>
+</li>
